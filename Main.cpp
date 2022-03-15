@@ -12,6 +12,7 @@
 using namespace std;
 
 int main() {
+
 	cout << ariel::mat(9, 7, '@', '-') << endl;
 /* Should print:
 @@@@@@@@@
@@ -33,7 +34,7 @@ int main() {
 */
 	
     try {
-        
+
 		cout << ariel::mat(10, 5, '$', '%') << endl; // Exception - not a valid code
 	
     } catch (exception& ex) {
